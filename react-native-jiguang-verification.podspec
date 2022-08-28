@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '8.0'
 
-  s.source          = { :git => "https://github.com/jpush/jverification-react-native.git", :tag => "#{s.version}" }
+  s.source          = { :git => "https://github.com/gavin1995/jverification-react-native.git", :tag => "#{s.version}" }
   s.source_files    = 'ios/RCTJVerificationModule/*.{h,m}'
   s.preserve_paths  = "*.js"
   s.frameworks      = 'UIKit','CFNetwork','CoreFoundation','CoreTelephony','SystemConfiguration','CoreGraphics','Foundation','Security', 'AdSupport', 'CoreLocation', 'MobileCoreServices'
